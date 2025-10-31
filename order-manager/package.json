@@ -1,0 +1,30 @@
+{
+  "name": "order-manager",
+  "version": "1.0.0",
+  "description": "A web application for managing orders with features like multiple language support, cloud backup, printable reports, and charts.",
+  "main": "docs/index.html",
+  "scripts": {
+    "start": "live-server docs",
+    "build": "echo 'Build process not defined'",
+    "deploy": "bash scripts/deploy-gh-pages.sh"
+  },
+  "keywords": [
+    "order",
+    "management",
+    "web",
+    "application",
+    "cloud",
+    "backup",
+    "reports",
+    "charts"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "chart.js": "^3.7.0",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

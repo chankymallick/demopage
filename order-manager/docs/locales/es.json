@@ -1,0 +1,42 @@
+{
+  "app_name": "Order Manager",
+  "welcome_message": "Bienvenido al sistema de gestión de pedidos",
+  "order": {
+    "title": "Gestión de Pedidos",
+    "create_order": "Crear Pedido",
+    "view_orders": "Ver Pedidos",
+    "order_id": "ID del Pedido",
+    "customer_name": "Nombre del Cliente",
+    "order_date": "Fecha del Pedido",
+    "status": "Estado"
+  },
+  "reports": {
+    "title": "Informes",
+    "generate_report": "Generar Informe",
+    "print_report": "Imprimir Informe",
+    "report_date": "Fecha del Informe",
+    "total_orders": "Total de Pedidos",
+    "total_revenue": "Ingresos Totales"
+  },
+  "backup": {
+    "title": "Copia de Seguridad",
+    "backup_now": "Hacer Copia de Seguridad Ahora",
+    "backup_success": "Copia de seguridad realizada con éxito",
+    "backup_failure": "Error al realizar la copia de seguridad"
+  },
+  "charts": {
+    "title": "Gráficos",
+    "order_statistics": "Estadísticas de Pedidos",
+    "revenue_statistics": "Estadísticas de Ingresos"
+  },
+  "language": {
+    "select_language": "Seleccionar Idioma",
+    "english": "Inglés",
+    "spanish": "Español",
+    "french": "Francés"
+  },
+  "footer": {
+    "contact": "Contacto",
+    "about": "Acerca de"
+  }
+}

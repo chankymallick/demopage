@@ -1,0 +1,35 @@
+{
+  "title": "Gestion des commandes",
+  "welcome": "Bienvenue dans le système de gestion des commandes.",
+  "order": {
+    "create": "Créer une commande",
+    "view": "Voir les commandes",
+    "edit": "Modifier la commande",
+    "delete": "Supprimer la commande"
+  },
+  "report": {
+    "generate": "Générer un rapport",
+    "view": "Voir le rapport",
+    "print": "Imprimer le rapport"
+  },
+  "backup": {
+    "cloud": "Sauvegarde dans le cloud",
+    "success": "Sauvegarde réussie!",
+    "error": "Erreur lors de la sauvegarde."
+  },
+  "charts": {
+    "sales": "Ventes",
+    "orders": "Commandes",
+    "customers": "Clients"
+  },
+  "language": {
+    "select": "Sélectionnez la langue",
+    "english": "Anglais",
+    "spanish": "Espagnol",
+    "french": "Français"
+  },
+  "footer": {
+    "contact": "Contactez-nous",
+    "privacy": "Politique de confidentialité"
+  }
+}

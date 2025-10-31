@@ -1,0 +1,21 @@
+{
+  "name": "Order Manager",
+  "short_name": "OrderMgr",
+  "start_url": "/docs/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4CAF50",
+  "description": "A web application for managing orders with features like multiple language support, cloud backup, printable reports, and charts.",
+  "icons": [
+    {
+      "src": "/docs/assets/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/docs/assets/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

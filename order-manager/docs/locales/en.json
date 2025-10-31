@@ -1,0 +1,33 @@
+{
+  "appName": "Order Manager",
+  "welcomeMessage": "Welcome to the Order Manager application!",
+  "orderProcessing": {
+    "title": "Order Processing",
+    "description": "Manage your orders efficiently."
+  },
+  "reports": {
+    "title": "Reports",
+    "description": "Generate and view printable reports."
+  },
+  "cloudBackup": {
+    "title": "Cloud Backup",
+    "description": "Backup your data to the cloud."
+  },
+  "languageSupport": {
+    "title": "Language Support",
+    "description": "Choose your preferred language."
+  },
+  "print": {
+    "title": "Printable Reports",
+    "message": "Click here to print your reports."
+  },
+  "charts": {
+    "title": "Charts",
+    "description": "Visualize your order data with charts."
+  },
+  "footer": {
+    "contact": "Contact us for support.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  }
+}

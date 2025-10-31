@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Manager - Orders</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="assets/js/i18n.js" defer></script>
+    <script src="assets/js/backup.js" defer></script>
+    <script src="assets/js/charts.js" defer></script>
+    <script src="assets/js/reports.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Order Processing System</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="orders.html">Manage Orders</a></li>
+                <li><a href="reports.html">Printable Reports</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="order-management">
+            <h2>Manage Your Orders</h2>
+            <form id="order-form">
+                <label for="order-id">Order ID:</label>
+                <input type="text" id="order-id" name="order-id" required>
+                
+                <label for="customer-name">Customer Name:</label>
+                <input type="text" id="customer-name" name="customer-name" required>
+                
+                <label for="order-details">Order Details:</label>
+                <textarea id="order-details" name="order-details" required></textarea>
+                
+                <button type="submit">Submit Order</button>
+            </form>
+        </section>
+        <section id="order-list">
+            <h2>Current Orders</h2>
+            <ul id="orders">
+                <!-- Orders will be dynamically populated here -->
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Order Manager. All rights reserved.</p>
+    </footer>
+    <script src="assets/js/app.js" defer></script>
+</body>
+</html>

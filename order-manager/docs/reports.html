@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Reports</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/print.css" media="print">
+    <script src="assets/js/reports.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Order Reports</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="orders.html">Manage Orders</a></li>
+                <li><a href="reports.html">Reports</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="report-generation">
+            <h2>Generate Report</h2>
+            <form id="report-form">
+                <label for="report-type">Select Report Type:</label>
+                <select id="report-type" name="report-type">
+                    <option value="summary">Summary Report</option>
+                    <option value="detailed">Detailed Report</option>
+                </select>
+                <label for="date-range">Select Date Range:</label>
+                <input type="date" id="start-date" name="start-date">
+                <input type="date" id="end-date" name="end-date">
+                <button type="submit">Generate Report</button>
+            </form>
+        </section>
+        <section id="report-results">
+            <h2>Report Results</h2>
+            <div id="results-container">
+                <!-- Report results will be displayed here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Order Manager. All rights reserved.</p>
+    </footer>
+</body>
+</html>

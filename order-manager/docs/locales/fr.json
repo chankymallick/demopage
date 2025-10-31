@@ -1,0 +1,43 @@
+{
+  "app_name": "Order Manager",
+  "welcome_message": "Bienvenue dans le système de gestion des commandes",
+  "order": {
+    "title": "Gestion des commandes",
+    "create_order": "Créer une commande",
+    "view_orders": "Voir les commandes",
+    "order_id": "ID de la commande",
+    "customer_name": "Nom du client",
+    "order_date": "Date de la commande",
+    "status": "Statut"
+  },
+  "reports": {
+    "title": "Rapports",
+    "generate_report": "Générer un rapport",
+    "print_report": "Imprimer le rapport",
+    "report_date": "Date du rapport",
+    "total_orders": "Total des commandes",
+    "total_revenue": "Revenu total"
+  },
+  "backup": {
+    "title": "Sauvegarde dans le cloud",
+    "backup_now": "Sauvegarder maintenant",
+    "backup_success": "Sauvegarde réussie",
+    "backup_failure": "Échec de la sauvegarde"
+  },
+  "charts": {
+    "title": "Graphiques",
+    "order_statistics": "Statistiques des commandes",
+    "monthly_sales": "Ventes mensuelles"
+  },
+  "language": {
+    "select_language": "Sélectionnez la langue",
+    "english": "Anglais",
+    "spanish": "Espagnol",
+    "french": "Français"
+  },
+  "footer": {
+    "contact": "Contactez-nous",
+    "privacy_policy": "Politique de confidentialité",
+    "terms_of_service": "Conditions de service"
+  }
+}

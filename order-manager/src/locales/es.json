@@ -1,0 +1,36 @@
+{
+  "order_manager": "Gestor de Pedidos",
+  "welcome": "Bienvenido al Gestor de Pedidos",
+  "order": {
+    "title": "Pedido",
+    "create": "Crear Pedido",
+    "view": "Ver Pedidos",
+    "edit": "Editar Pedido",
+    "delete": "Eliminar Pedido"
+  },
+  "report": {
+    "title": "Informe",
+    "generate": "Generar Informe",
+    "print": "Imprimir Informe"
+  },
+  "backup": {
+    "title": "Copia de Seguridad",
+    "cloud": "Copia de Seguridad en la Nube",
+    "success": "Copia de seguridad realizada con éxito",
+    "failure": "Error al realizar la copia de seguridad"
+  },
+  "charts": {
+    "title": "Gráficos",
+    "view": "Ver Gráficos"
+  },
+  "language": {
+    "select": "Seleccionar Idioma",
+    "english": "Inglés",
+    "spanish": "Español",
+    "french": "Francés"
+  },
+  "footer": {
+    "contact": "Contacto",
+    "about": "Acerca de"
+  }
+}
